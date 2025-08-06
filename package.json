@@ -1,0 +1,28 @@
+{
+  "name": "@heywoogames/hw-mq",
+  "version": "1.0.0",
+  "description": "hw Message Queue Plugin",
+  "main": "main.js",
+  "scripts": {
+    "test": "node example/test.js"
+  },
+  "keywords": [
+    "hw",
+    "mq"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heywoogames/hw-mq.git"
+  },
+  "author": "shudingbo",
+  "publishConfig": {
+    "@heywoogames:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@heywoogames/hw-base": "^1.0.0",
+    "ioredis": "^5.7.0"
+  },
+  "devDependencies": {
+    "@heywoogames/hw-redis": "^1.0.0"
+  }
+}

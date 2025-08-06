@@ -1,0 +1,17 @@
+{
+    "mservice":{
+        "enable": false
+    },
+    "plugins": {
+        "mq": {
+            "path": "../main.js",
+            "enable": true,
+            "alias": "_mq",
+            "cfgName": "mq",
+            "extCfg": {
+                "enablePub": true,
+                "enableSub": true
+            }
+        }
+    } 
+}
